@@ -1,16 +1,67 @@
-# araroma
+# 🍽️ Araroma - Meal Categories App
 
-A new Flutter project.
+A Flutter app to browse meal categories using data from [TheMealDB API](https://www.themealdb.com/api.php).  
+Built using **Flutter**, **Riverpod**, and **Dio** with support for **pull-to-refresh** and **shimmer loading** effects.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔄 Fetches categories from TheMealDB API.
+- 📦 Uses Riverpod for state management.
+- ⚡ Beautiful shimmer effect while loading.
+- 🔁 Pull-to-refresh for updating categories.
+- 🧭 Bottom navigation support.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Setup Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/RaannaKasturi/araroma.git
+cd araroma
+```
+
+### 2. Install dependencies
+
+```bash
+flutter pub get
+```
+
+### 3. Run the app
+
+```bash
+flutter run
+```
+
+---
+
+## 📦 Dependencies
+
+- [google_fonts](https://pub.dev/packages/google_fonts)
+- [dio](https://pub.dev/packages/dio)
+- [shimmer](https://pub.dev/packages/shimmer)
+- [cached_network_image](https://pub.dev/packages/cached_network_image)
+- [riverpod_annotation](https://pub.dev/packages/riverpod_annotation)
+- [flutter_riverpod](https://pub.dev/packages/flutter_riverpod)
+
+
+---
+
+## 🌐 API Used
+
+- [TheMealDB API - `/categories.php`](https://www.themealdb.com/api/json/v1/1/categories.php)
+
+---
+
+## 🤝 Contributing
+
+Feel free to fork and contribute! Pull requests are welcome.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
