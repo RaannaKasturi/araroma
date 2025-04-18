@@ -15,6 +15,12 @@ Built using **Flutter**, **Riverpod**, and **Dio** with support for **pull-to-re
 
 ---
 
+## 📽️ Demo Video
+
+https://github.com/user-attachments/assets/fcb0f10a-fb76-41c7-96b7-78d4757f369c
+
+---
+
 ## 🚀 Setup Instructions
 
 ### 1. Clone the repository
